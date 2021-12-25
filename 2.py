@@ -18,6 +18,7 @@ if __name__ == '__main__':
     screen = pygame.display.set_mode(size)
     screen.fill('white')
     x, y = 0, 0
+    image = load_image('creature.png')
     screen.blit(image, (x, y))
 
     running = True
